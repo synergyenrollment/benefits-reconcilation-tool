@@ -725,7 +725,8 @@ if 'initialized' not in st.session_state:
             st.session_state.app_stage = 'preview'
             
             st.success("Demo data loaded successfully!")
-            st.experimental_rerun()import streamlit as st
+            st.experimental_rerun()
+import streamlit as st
 import pandas as pd
 import numpy as np
 import base64
